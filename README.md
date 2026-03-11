@@ -29,7 +29,8 @@ A modern, high-performance desktop application built with Python and CustomTkint
    python AttendanceTracker.py
 
 ## 📸 Preview
-<img width="987" height="761" alt="image" src="https://github.com/user-attachments/assets/21dc7996-577c-46c6-9058-44798f1fd772" />
+<img width="1000" height="603" alt="image" src="https://github.com/user-attachments/assets/c6f2e82c-1179-4482-92d8-5b789fa035c9" />
+
 
 ## 🗺️ v2.0 Roadmap (Coming Soon)
 I am currently working on the next major update to transition this from a simple tracker to a full analytics suite.
