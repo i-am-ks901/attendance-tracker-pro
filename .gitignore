@@ -1,0 +1,9 @@
+# Ignore executables
+*.exe
+
+# Ignore local data/personal attendance records
+*.json
+.AttendanceTrackerPro/
+
+# Ignore Python cache
+__pycache__/
