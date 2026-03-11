@@ -35,6 +35,10 @@ A modern, high-performance desktop application built with Python and CustomTkint
 ## 🗺️ v2.0 Roadmap (Coming Soon)
 I am currently working on the next major update to transition this from a simple tracker to a full analytics suite.
 
+[x] Global Dashboard: Added a pinned summary card showing total attendance and safe/short counts.
+
+[x] Performance Optimization: Implemented an update-based rendering engine to handle multiple subjects without lag.
+
 [ ] Visual Analytics: Integrated bar charts using matplotlib to compare attendance vs. targets across all subjects.
 
 [ ] Data Portability: CSV export functionality for external backup and reporting.
