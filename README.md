@@ -31,3 +31,15 @@ A modern, high-performance desktop application built with Python and CustomTkint
 ## 📸 Preview
 <img width="987" height="761" alt="image" src="https://github.com/user-attachments/assets/21dc7996-577c-46c6-9058-44798f1fd772" />
 
+## 🗺️ v2.0 Roadmap (Coming Soon)
+I am currently working on the next major update to transition this from a simple tracker to a full analytics suite.
+
+[ ] Visual Analytics: Integrated bar charts using matplotlib to compare attendance vs. targets across all subjects.
+
+[ ] Data Portability: CSV export functionality for external backup and reporting.
+
+[ ] Search & Sort: Real-time filtering and sorting (by name or attendance level) for students with many subjects.
+
+[ ] Critical Alerts: Visual pulsing warnings for subjects that fall significantly below the target threshold.
+
+[ ] Enhanced Logging: Ability to add custom notes (e.g., "Medical Leave") to individual attendance records.
