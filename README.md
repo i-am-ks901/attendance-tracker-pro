@@ -10,7 +10,7 @@ A modern, high-performance desktop application built with Python and CustomTkint
 * **History Management**: Ability to toggle attendance status or delete specific logs.
 
 ## 🛠️ Tech Stack
-* **Language**: Python 3.x
+* **Language**: Python 3.11
 * **GUI**: CustomTkinter / Tkinter (ttk)
 * **Data**: JSON (Local Persistence)
 * **Logic**: Math-based prediction algorithms
