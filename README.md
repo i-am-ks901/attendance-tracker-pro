@@ -27,3 +27,6 @@ A modern, high-performance desktop application built with Python and CustomTkint
 3. **Run the application:**
    ```bash
    python AttendanceTracker.py
+
+## 📸 Preview
+![App Screenshot](Screenshot 2026-03-12 013618.png)
