@@ -2,8 +2,6 @@
 
 [🚀 Download Latest Version for Windows](https://github.com/i-am-ks901/attendance-tracker-pro/releases/latest)
 
-Note for Windows Users: Since this application is not digitally signed, Windows might show a "SmartScreen" warning. To run the app, click "More info" and then "Run anyway".
-
 A modern, high-performance desktop application built with Python and CustomTkinter. This tool helps students manage university attendance, track history, and calculate exactly how many classes they need to attend to meet their target percentage.
 
 ## 🚀 Key Features
@@ -23,14 +21,17 @@ A modern, high-performance desktop application built with Python and CustomTkint
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/i-am-ks901/attendance-tracker-pro.git
-
+   ```
+   
 2. **Install dependencies:**
    ```bash
-   pip install customkinter
+   pip install customtkinter
+   ```
 
 3. **Run the application:**
    ```bash
    python AttendanceTracker.py
+   ```
 
 ## 📸 Preview
 <img width="1000" height="603" alt="image" src="https://github.com/user-attachments/assets/c6f2e82c-1179-4482-92d8-5b789fa035c9" />
@@ -49,6 +50,8 @@ I am currently working on the next major update to transition this from a simple
 
 [ ] Search & Sort: Real-time filtering and sorting (by name or attendance level) for students with many subjects.
 
+
+### Note for Windows Users: Since this application is not digitally signed, Windows might show a "SmartScreen" warning. To run the app, click "More info" and then "Run anyway".
 [ ] Critical Alerts: Visual pulsing warnings for subjects that fall significantly below the target threshold.
 
 [ ] Enhanced Logging: Ability to add custom notes (e.g., "Medical Leave") to individual attendance records.
