@@ -50,8 +50,10 @@ I am currently working on the next major update to transition this from a simple
 
 [ ] Search & Sort: Real-time filtering and sorting (by name or attendance level) for students with many subjects.
 
-
-### Note for Windows Users: Since this application is not digitally signed, Windows might show a "SmartScreen" warning. To run the app, click "More info" and then "Run anyway".
 [ ] Critical Alerts: Visual pulsing warnings for subjects that fall significantly below the target threshold.
 
 [ ] Enhanced Logging: Ability to add custom notes (e.g., "Medical Leave") to individual attendance records.
+
+
+## Note for Windows Users: 
+Since this application is not digitally signed, Windows might show a "SmartScreen" warning. To run the app, click "More info" and then "Run anyway".
