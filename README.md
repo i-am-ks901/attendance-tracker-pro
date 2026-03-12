@@ -1,5 +1,8 @@
 # 🎓 Attendance Tracker Pro
 
+[🚀 Download Latest Version for Windows](https://github.com/i-am-ks901/attendance-tracker-pro/releases/latest)
+Note for Windows Users: Since this application is not digitally signed, Windows might show a "SmartScreen" warning. To run the app, click "More info" and then "Run anyway".
+
 A modern, high-performance desktop application built with Python and CustomTkinter. This tool helps students manage university attendance, track history, and calculate exactly how many classes they need to attend to meet their target percentage.
 
 ## 🚀 Key Features
