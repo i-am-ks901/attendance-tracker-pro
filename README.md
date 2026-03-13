@@ -1,5 +1,7 @@
 # 🎓 Attendance Tracker Pro
 
+[🚀 Download Latest Version for Windows](https://github.com/i-am-ks901/attendance-tracker-pro/releases/latest)
+
 A modern, high-performance desktop application built with Python and CustomTkinter. This tool helps students manage university attendance, track history, and calculate exactly how many classes they need to attend to meet their target percentage.
 
 ## 🚀 Key Features
@@ -19,20 +21,28 @@ A modern, high-performance desktop application built with Python and CustomTkint
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/i-am-ks901/attendance-tracker-pro.git
-
+   ```
+   
 2. **Install dependencies:**
    ```bash
-   pip install customkinter
+   pip install customtkinter
+   ```
 
 3. **Run the application:**
    ```bash
    python AttendanceTracker.py
+   ```
 
 ## 📸 Preview
-<img width="987" height="761" alt="image" src="https://github.com/user-attachments/assets/21dc7996-577c-46c6-9058-44798f1fd772" />
+<img width="1000" height="603" alt="image" src="https://github.com/user-attachments/assets/c6f2e82c-1179-4482-92d8-5b789fa035c9" />
+
 
 ## 🗺️ v2.0 Roadmap (Coming Soon)
 I am currently working on the next major update to transition this from a simple tracker to a full analytics suite.
+
+[x] Global Dashboard: Added a pinned summary card showing total attendance and safe/short counts.
+
+[x] Performance Optimization: Implemented an update-based rendering engine to handle multiple subjects without lag.
 
 [ ] Visual Analytics: Integrated bar charts using matplotlib to compare attendance vs. targets across all subjects.
 
@@ -43,3 +53,7 @@ I am currently working on the next major update to transition this from a simple
 [ ] Critical Alerts: Visual pulsing warnings for subjects that fall significantly below the target threshold.
 
 [ ] Enhanced Logging: Ability to add custom notes (e.g., "Medical Leave") to individual attendance records.
+
+
+## Note for Windows Users: 
+Since this application is not digitally signed, Windows might show a "SmartScreen" warning. To run the app, click "More info" and then "Run anyway".
