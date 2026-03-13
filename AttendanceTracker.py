@@ -212,8 +212,8 @@ class AttendanceTrackerApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Attendance Tracker Pro")
-        self.root.geometry("1000x750")
-        self.root.minsize(600, 500)
+        self.root.geometry("1100x800")
+        self.root.minsize(800, 600)
         self.data = self.load_data()
         self.subject_widgets = {}
         self.setup_ui()
@@ -387,22 +387,29 @@ class AttendanceTrackerApp:
 
         card = ctk.CTkFrame(self.scrollable_frame, corner_radius=20, fg_color=card_bg, border_width=1, border_color=("#e2e8f0", "#333333"))
         card.grid(row=row_idx, column=0, sticky="ew", padx=15, pady=12)
-        card.grid_columnconfigure(0, weight=1, minsize=180)
-        card.grid_columnconfigure(1, weight=3, minsize=200)
-        card.grid_columnconfigure(2, weight=1, minsize=150)
+        
+        # INCREASED minsize and weights to prevent overlap
+        card.grid_columnconfigure(0, weight=2, minsize=220)
+        card.grid_columnconfigure(1, weight=3, minsize=300)
+        card.grid_columnconfigure(2, weight=1, minsize=200)
 
         info_frame = ctk.CTkFrame(card, fg_color="transparent")
-        info_frame.grid(row=0, column=0, padx=25, pady=25, sticky="we")
-        title_lbl = ctk.CTkLabel(info_frame, text=subject_name, font=ctk.CTkFont(size=22, weight="bold"), justify="left", wraplength=160)
-        title_lbl.pack(anchor="w", pady=(0, 2), fill=ctk.X, expand=True)
-        stats_lbl = ctk.CTkLabel(info_frame, text=f"Attended: {attended}/{total}  •  Target: {target}%", font=ctk.CTkFont(size=14, weight="bold"), text_color="gray")
+        info_frame.grid(row=0, column=0, padx=25, pady=25, sticky="wn")
+        
+        # Fixed wraplength to allow subject name to wrap properly
+        title_lbl = ctk.CTkLabel(info_frame, text=subject_name, font=ctk.CTkFont(size=22, weight="bold"), justify="left", wraplength=200)
+        title_lbl.pack(anchor="w", pady=(0, 2), fill=ctk.X)
+        stats_lbl = ctk.CTkLabel(info_frame, text=f"Attended: {attended}/{total}\nTarget: {target}%", font=ctk.CTkFont(size=14, weight="bold"), text_color="gray", justify="left")
         stats_lbl.pack(anchor="w")
 
         prog_frame = ctk.CTkFrame(card, fg_color="transparent")
-        prog_frame.grid(row=0, column=1, padx=20, pady=25, sticky="nsew")
+        prog_frame.grid(row=0, column=1, padx=20, pady=25, sticky="ew")
         bar_color = primary_color if percentage > 0 else "gray"
-        action_lbl = ctk.CTkLabel(prog_frame, text=main_action_text, font=ctk.CTkFont(size=16, weight="bold"), text_color=bar_color, justify="center", wraplength=350)
-        action_lbl.pack(anchor="center", fill=ctk.X, expand=True)
+        
+        # Fixed wraplength for the instruction text
+        action_lbl = ctk.CTkLabel(prog_frame, text=main_action_text, font=ctk.CTkFont(size=16, weight="bold"), text_color=bar_color, justify="center", wraplength=300)
+        action_lbl.pack(anchor="center", fill=ctk.X, pady=(0, 5))
+        
         prog_bar = ctk.CTkProgressBar(prog_frame, height=14, progress_color=bar_color)
         prog_bar.pack(fill=ctk.X, pady=(8, 8))
         prog_bar.set(percentage / 100.0)
