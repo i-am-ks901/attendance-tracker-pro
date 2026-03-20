@@ -44,11 +44,11 @@ I am currently working on the next major update to transition this from a simple
 
 [x] Performance Optimization: Implemented an update-based rendering engine to handle multiple subjects without lag.
 
-[ ] Visual Analytics: Integrated bar charts using matplotlib to compare attendance vs. targets across all subjects.
+[X] Visual Analytics: Integrated bar charts using matplotlib to compare attendance vs. targets across all subjects.
 
-[ ] Data Portability: CSV export functionality for external backup and reporting.
+[X] Data Portability: CSV export functionality for external backup and reporting.
 
-[ ] Search & Sort: Real-time filtering and sorting (by name or attendance level) for students with many subjects.
+[X] Search & Sort: Real-time filtering and sorting (by name or attendance level) for students with many subjects.
 
 [ ] Critical Alerts: Visual pulsing warnings for subjects that fall significantly below the target threshold.
 
