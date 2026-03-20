@@ -6,3 +6,21 @@ build/
 dist/
 *.spec
 __pycache__/
+# PyInstaller outputs
+build/
+dist/
+*.spec
+
+# Python's temporary cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE-specific settings
+.vscode/
+.idea/
