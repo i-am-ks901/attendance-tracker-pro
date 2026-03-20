@@ -34,7 +34,8 @@ A modern, high-performance desktop application built with Python and CustomTkint
    ```
 
 ## 📸 Preview
-<img width="1000" height="603" alt="image" src="https://github.com/user-attachments/assets/c6f2e82c-1179-4482-92d8-5b789fa035c9" />
+<img width="1089" height="806" alt="image" src="https://github.com/user-attachments/assets/fd77bf0f-58df-465a-803a-3992f79a7ae1" />
+
 
 
 ## 🗺️ v2.0 Roadmap (Coming Soon)
